@@ -58,7 +58,7 @@ plt.title('Linear-frequency power spectrogram')
 ```
 ![STFT](/images/stft.png)  
 Next we will address the real problem of STFT and audio preprocessing. 
-If we analyze the distribution of values we can observe most of the values are zero. To do so we plot the log-histogram of all the values.  
+If we analyze the distribution of values we can observe most of the values are zero. To do so we plot the log-histogram of all the values. Realize that log-histogram implies that the first bin is two orders of magnitude bigger than the second bin. Roughly there are 1 Million zeros in the spectrogram, ~10000 values between 0-5. Around 50 values >50 and less than 100 values > 100. However the least amount of time-frequency points contain almost all the energy of the spectrogram.    
 ![histogram](/images/hist_raw.png)  
 This is expected. Most of the time-frequency points contain no energy meanwhile the whole energy is exponentially  distributed across all the spectrogram. However, this distribution is really inefficient for machine learning:
 We are forcing the architecture to be able to statistically model an exponential distribution. This means that it has to be able to be sensitive to small differencies in a compressed range (basically as most of the values are small the model have to provide a wide resolution for an small range) but at the same time to be adapted for way higher ranges at higher values. In short, a mess. 
