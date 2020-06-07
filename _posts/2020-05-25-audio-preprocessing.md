@@ -70,7 +70,7 @@ stft_log = np.log(stft + epsilon)
 plt.hist(stft_log.flatten(),bins=200,log=False)
 plt.show()
 ```
-![STFT](/images/hist_norm.png) 
+![STFT](/images/hist_norm.png)  
 We achieve to great properties by doing this:
 - Log-spectrograms follow normal distributions
 - We compress the range of values the spectrogram can take, which implies similar resolution at different ranges.  
