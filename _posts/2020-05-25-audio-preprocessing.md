@@ -74,3 +74,6 @@ plt.show()
 We achieve to great properties by doing this:
 - Log-spectrograms follow normal distributions
 - We compress the range of values the spectrogram can take, which implies similar resolution at different ranges.  
+
+Code available to run in Colab:
+<script src="https://gist.github.com/JuanFMontesinos/0780d80bca94e9fdef64f4dc06d87843.js"></script>
