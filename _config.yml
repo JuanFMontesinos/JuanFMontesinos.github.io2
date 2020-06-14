@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Juan F. Montesinos"
-  avatar           : "profile.png"
+  avatar           : "img.png"
   bio              : "PhD student in Pompeu Fabra University. Working in audiovisual modality using ML"
   location         : "Barcelona"
   employer         :
