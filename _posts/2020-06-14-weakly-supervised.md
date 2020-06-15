@@ -7,7 +7,8 @@ tags:
   - preprocessing
   - weakly upervised
 ---
-Note: Parts of the paper may be quoted without indication.
+Note: Parts of the paper may be quoted without indication.  
+
 # Paper Resume: End-to-end weakly-supervised semantic alignment  
 [Arxiv](https://arxiv.org/pdf/1712.06861.pdf)  
 **Year**: 2018  
