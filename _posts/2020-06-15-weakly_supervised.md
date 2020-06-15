@@ -1,7 +1,7 @@
 ---
 title: 'Paper: End-to-end weakly-supervised semantic alignment'
 date: 2020-06-15
-permalink: /posts/paper/weakly-supervised
+permalink: /posts/2020/06/15/weakly-supervised
 tags:
   - machine learning
   - preprocessing
