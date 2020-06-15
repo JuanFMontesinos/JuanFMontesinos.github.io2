@@ -49,4 +49,4 @@ The input is a set of images $$(I^s,I^t)$$ which pass through a siamese network.
 ## Pairwise feature matching  
 Pairwise similarities--> normalized correlation function:  
 $$S:{\Bbb R}^{h\times w\times d}\times{\Bbb R}^{h\times w\times d} \rightarrow {\Bbb R}^{h\times w\times  h\times w}$$  
-$$s_{ijkl}=S(f^s,f^t)_{ijkl}=\frac{\left <f^s_{ij:},f^t_{kl:}\left >}{\sqrt{\sum_{a,b} \left <f^s_{ab:},f^t_{kl:}\left >}}$$
+$$s_{ijkl}=S(f^s,f^t)_{ijkl}=\frac{ \langle f^s_{ij:},f^t_{kl:} \rangle }{\sqrt{\sum_{a,b}  \langle f^s_{ab:},f^t_{kl:} \rangle }}$$
