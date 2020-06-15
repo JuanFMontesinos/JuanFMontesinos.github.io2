@@ -37,6 +37,15 @@ but semantically related image pairs.
 
 ![Example](https://camo.githubusercontent.com/315c1bcefc0db56ac1d0d25ffbb5896bcac80fd1/687474703a2f2f7777772e64692e656e732e66722f77696c6c6f772f72657365617263682f7765616b616c69676e2f696d616765732f7465617365722e6a7067)
 
-## Core Architecture  
+## Core Idea  
 Here we can see the core method proposed in the paper:  
 ![img](/images/papers/weakly.PNG)  
+
+The network is trained using pairs of images. It estimates a transformation to align them. At the very end, the quality of the alignment is estimated. The network is trained to maxize that quality without using strong supervision.  
+
+### Feature Extractor  
+The input is a set of images $$(I^s,I^t)$$ which pass through a siamese network. The output shape is a 2D grid of shape HxW with d channels. Each point of the grid is called $$f_{ij} \epsilon R^d$$  
+
+## Pairwise feature matching  
+Pairwise similarities--> normalized correlation function:  
+$$S:{\Bbb R}$$
