@@ -1,5 +1,5 @@
 ---
-title: 'Audio Preprocessing'
+title: 'Tutorial: Audio Preprocessing'
 date: 2020-06-04
 permalink: /posts/2020/05/25/audio-preprocessing/
 tags:
