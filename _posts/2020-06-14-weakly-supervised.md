@@ -7,6 +7,7 @@ tags:
   - preprocessing
   - weakly upervised
 ---
+I'm gonna catch the main ideas from End-to-end weakly-supervised semantic alignment  
 Note: Parts of the paper may be quoted without indication.  
 
 # Paper Resume: End-to-end weakly-supervised semantic alignment  
