@@ -7,10 +7,10 @@ tags:
   - preprocessing
   - weakly upervised
 ---
-[Arxiv](https://arxiv.org/pdf/1712.06861.pdf)  
+[PDF](http://openaccess.thecvf.com/content_cvpr_2018/papers/Rocco_End-to-End_Weakly-Supervised_Semantic_CVPR_2018_paper.pdf)  
 **Year**: 2018  
-**Goal**:  
-Aligning two mages depicting objects of the same category  
+**Conference**: CVPR  
+**Goal**:Aligning two mages depicting objects of the same category  
 
 
 
