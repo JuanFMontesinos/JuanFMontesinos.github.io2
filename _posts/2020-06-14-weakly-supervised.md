@@ -49,4 +49,22 @@ The input is a set of images $$(I^s,I^t)$$ which pass through a siamese network.
 ## Pairwise feature matching  
 Pairwise similarities--> normalized correlation function:  
 $$S:{\Bbb R}^{h\times w\times d}\times{\Bbb R}^{h\times w\times d} \rightarrow {\Bbb R}^{h\times w\times  h\times w}$$  
-$$s_{ijkl}=S(f^s,f^t)_{ijkl}=\frac{ \langle f^s_{ij:},f^t_{kl:} \rangle }{\sqrt{\sum_{a,b}  \langle f^s_{ab:},f^t_{kl:} \rangle }}$$
+$$s_{ijkl}=S(f^s,f^t)_{ijkl}=\frac{ \langle f^s_{ij:},f^t_{kl:} \rangle }{\sqrt{\sum_{a,b}  \langle f^s_{ab:},f^t_{kl:} \rangle^2 }}$$  
+The denominator performs a normalization
+operation with the effect of down-weighing ambiguous
+matches, by penalizing features from one image which have
+multiple highly-rated matches in the other image.  
+## Geometric transformation estimation  
+Done by transformation regression CNN:
+$$G: {\Bbb R}^{h\times w\times h\times w}\rightarrow {\Bbb R}^K$$  
+Where $$K$$ are the degrees of freedom (depending on if affine transformation...).  
+
+## Soft-inlier count  
+Inspired by RANSAC.  
+It sums match scores over all possible matches. 
+RANSAC formulates an hypotesis for all the possible cases and takes as valid the most scored one.  
+![ransac](/images/papers/ransac.PNG)  
+$$c_R=\sum m(p_i)$$ where $$m(p)=    \begin{cases}
+      1, & \text{if}\  d(p,l)<\text{t},\\
+      0, & \text{otherwise}.
+    \end{cases}$$
