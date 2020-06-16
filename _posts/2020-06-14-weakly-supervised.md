@@ -7,15 +7,20 @@ tags:
   - preprocessing
   - weakly upervised
 ---
-I'm gonna catch the main ideas from End-to-end weakly-supervised semantic alignment  
-Note: Parts of the paper may be quoted without indication.  
-
-# Paper Resume: End-to-end weakly-supervised semantic alignment  
 [Arxiv](https://arxiv.org/pdf/1712.06861.pdf)  
 **Year**: 2018  
 **Goal**:  
 Aligning two mages depicting objects of the same category  
 
+
+
+
+
+
+
+Note: Parts of the paper may be quoted without indication.  
+
+# Paper Resume: End-to-end weakly-supervised semantic alignment  
 ## Contributions:   
 * End-to-end CNN 
 * Weakly supervised (image pairs)
