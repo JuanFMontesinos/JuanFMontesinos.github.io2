@@ -8,18 +8,18 @@ tags:
   - skeletons
 ---
 
- # Paper Resume:  Self-supervised Learning of Interpretable Keypoints from Unlabelled Videos  
+# Paper Resume:  Self-supervised Learning of Interpretable Keypoints from Unlabelled Videos  
  [**PDF**](http://openaccess.thecvf.com/content_CVPR_2020/papers/Jakab_Self-Supervised_Learning_of_Interpretable_Keypoints_From_Unlabelled_Videos_CVPR_2020_paper.pdf)
  **Year**: 2020  
  **Conference**: CVPR  
  **Goal:** Weakly supervised pose detection  
- Resume: Self-supervised Learning of Interpretable Keypoints from Unlabelled Videos  
+Resume: Self-supervised Learning of Interpretable Keypoints from Unlabelled Videos  
  
  
- Note: This post may contain paper quotes.  
- ## Contribution  
+Note: This post may contain paper quotes.  
+## Contribution  
  TODO
- ## Core idea  
+## Core idea  
 During a video an object usually maintains its intrinsic appearance but changes
 its pose. Hence, the concept of pose can be learned by modelling the differences between video frames.  
 
