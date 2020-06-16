@@ -65,4 +65,8 @@ It sums match scores over all possible matches.
 RANSAC formulates an hypotesis for all the possible cases and takes as valid the most scored one.  
 ![ransac](/images/papers/ransac.PNG)  
 $$c_R=\sum m(p_i)$$ where $$m(p)=     1 \text{ if } d(p,l)\lt \text{t }   0 \text{ otherwise}.  $$
-The problem is this algorithm is not differentiable since you are setting strict values based on a threshold. So they reformulate the algorithm as the sum of the match scores over all possible matches penalized by the RANSAC algorithm. This way differentiation is taken into account by the sum and gradients are adjusted by the coefficient each term is multiplied by. 
+The problem is this algorithm is not differentiable since you are setting strict values based on a threshold. So they reformulate the algorithm as the sum of the match scores over all possible matches penalized by the RANSAC algorithm. This way differentiation is taken into account by the sum and gradients are adjusted by the coefficient each term is multiplied by.  
+$$c=\sum s_{ij}m_{ij}$$  
+So $$m_{ij}$$ are the same as in the ransac case meanwhile $$s_{ij}$$ are the sum of the matched scores.  
+
+
