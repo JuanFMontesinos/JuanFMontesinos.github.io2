@@ -11,11 +11,11 @@ redirect_from:
 
 Education
 ======
-* B.S. in Industrial Engineering, University of Zaragoza, 2013-2017
-* M.S. in Computer Vision & Image Processing, 2017-2018  
-  * Pompeu Fabra University
-  * Polytechnic University of Catalonia
-  * Autonomous University of Barcelona
+* [B.S. in Industrial Engineering](https://estudios.unizar.es/estudio/asignaturas?anyo_academico=2019&estudio_id=20190144&centro_id=110&plan_id_nk=436&sort=curso), University of Zaragoza, 2013-2017
+* [M.Sc. in Computer Vision & Image Processing](https://www.uab.cat/web/estudiar/official-master-s-degrees/general-information/computer-vision-1096480962610.html?param1=1345648392514), 2017-2018  
+  * [Pompeu Fabra University](https://www.upf.edu/home)
+  * [Polytechnic University of Catalonia](https://www.upc.edu/en?set_language=en)
+  * [Autonomous University of Barcelona](https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html)
   * Open University of Catalonia
 * Ph.D in Computer Science, Pompeu Fabra University, 2019 
 
