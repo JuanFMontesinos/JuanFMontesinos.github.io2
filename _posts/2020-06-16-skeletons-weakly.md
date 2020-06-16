@@ -13,7 +13,7 @@ tags:
  **Year**: 2020  
  **Conference**: CVPR  
  **Goal:** Weakly supervised pose detection  
- Note: This post may contain paper quotesç.  
+ Note: This post may contain paper quotes.  
  ## Contribution  
  TODO
  ## Core idea  
@@ -26,4 +26,11 @@ On the other side, another network reconstructs the image given the pose + a dif
 
 ### Pose bottleneck  
 They consider a dual representation of the pose bottleneck, as 2D coordinates and as a pictorial representation of those coords in an image (see Fig. 1).  
-The pose bottleneck is controlled via a discriminator learned adversarially. This discriminator probably requires supervision (which is why I define this as weakly supervised instead of self-supervised).
+The pose bottleneck is controlled via a discriminator learned adversarially. This discriminator probably requires supervision (which is why I define this as weakly supervised instead of self-supervised).  
+
+## Method  
+![Method](/images/papers/jakab2020method.PNG)  
+Let's do a summary. Authors learn in a self-supervised way how to obtain skeletons using a dual representation of skeletons as a set of 2D coords and as an image.  
+
+Basically they take an image  as input. An encoder is supposed to generate an image with the skeleton drawn over a black background. A discriminator is used to impose the transformation of I into effective skeletons. Otherwise the network would generate whatever kind of information in the bottleneck. Then they drop the image itself to obtain 2D coordinates (as the network may learn shortcuts hidden in the image). Lastly, the original image is recovered from the skeleton image + a second appearance image closing the cycle.  
+
