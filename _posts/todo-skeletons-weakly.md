@@ -1,7 +1,7 @@
 ---
 title: 'Paper: Self-supervised Learning of Interpretable Keypoints from Unlabelled Videos'
 date: 2020-06-16
-permalink: /posts/2020/06/16/todo
+permalink: /posts/2020/06/16/skeletons-weakly
 tags:
   - machine learning
   - weakly upervised
