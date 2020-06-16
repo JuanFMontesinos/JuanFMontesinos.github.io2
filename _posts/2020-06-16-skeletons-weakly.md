@@ -13,6 +13,9 @@ tags:
  **Year**: 2020  
  **Conference**: CVPR  
  **Goal:** Weakly supervised pose detection  
+ Resume: Self-supervised Learning of Interpretable Keypoints from Unlabelled Videos  
+ 
+ 
  Note: This post may contain paper quotes.  
  ## Contribution  
  TODO
