@@ -7,7 +7,7 @@ tags:
   - weakly upervised
   - skeletons
 ---
- [**PDF**](http://openaccess.thecvf.com/content_CVPR_2020/papers/Jakab_Self-Supervised_Learning_of_Interpretable_Keypoints_From_Unlabelled_Videos_CVPR_2020_paper.pdf)
+ [**PDF**](http://openaccess.thecvf.com/content_CVPR_2020/papers/Jakab_Self-Supervised_Learning_of_Interpretable_Keypoints_From_Unlabelled_Videos_CVPR_2020_paper.pdf)  
 **Year**: 2020  
 **Conference**: CVPR  
 **Goal:** Weakly supervised pose detection  
