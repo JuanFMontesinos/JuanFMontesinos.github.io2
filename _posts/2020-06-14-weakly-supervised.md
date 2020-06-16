@@ -64,4 +64,4 @@ Inspired by RANSAC.
 It sums match scores over all possible matches. 
 RANSAC formulates an hypotesis for all the possible cases and takes as valid the most scored one.  
 ![ransac](/images/papers/ransac.PNG)  
-$$c_R=\sum m(p_i)$$ where $$m(p)=    \begin{cases}      1, & \text{if}\  d(p,l)<\text{t},\\       0, & \text{otherwise}.   \end{cases}$$
+$$c_R=\sum m(p_i)$$ where $$m(p)=    \begin{cases}      1, & \text{if}\  d(p,l)<t,\\       0, & \text{otherwise}.   \end{cases}$$
