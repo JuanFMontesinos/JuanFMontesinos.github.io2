@@ -33,7 +33,7 @@ DALI makes use of hardware accelerated video decoding. This means it is really f
 contrary to any other Python library nowadays.  
 
 **Restrictions**  
-* It only support the codec `H264`, which means video files have to be of format `.mp4` or `.mov`. 
+* It only support the codec `H264`, which implies video files have to be of format `.mp4` or `.mov`. 
 * It also is restricted to *constant framerate* 
 
 **Advantages** 
