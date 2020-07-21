@@ -6,7 +6,7 @@ tags:
   - nvidia
   - DALI
   - audiovisual
-  -data loading
+  - data loading
 ---
 # Tutorial: Loading AudioVisual Content with Nvidia DALI  
 
