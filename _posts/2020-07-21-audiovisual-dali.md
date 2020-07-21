@@ -1,5 +1,5 @@
 ---
-title: '[Tutorial]: Loading AudioVisual Content with Nvidia DALI '
+title: 'Tutorial: Loading AudioVisual Content with Nvidia DALI '
 date: 2020-07-21
 permalink: /posts/2020/07/21/audiovisual-dali
 tags:
