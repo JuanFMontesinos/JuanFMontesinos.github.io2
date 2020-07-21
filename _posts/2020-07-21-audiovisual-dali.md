@@ -83,7 +83,7 @@ except:
 With the following code we are going to: 
 1. Load a video choosing specific init frames and end frames.
 2. Resize the video to 224x224
-3. Load an specific audio file seeking 
+3. Load an specific audio file by seeking for custom stamps 
 4. Compute the STFT  
 
 
