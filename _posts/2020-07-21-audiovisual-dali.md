@@ -183,7 +183,8 @@ we can load synchronized audio and video streams.
  librosa reads audio as numpy arrays.  
  
  
- ## Full running code  
+ ## Full code  
+ 
  ```
  from multiprocessing import cpu_count
 
