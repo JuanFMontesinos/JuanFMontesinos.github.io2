@@ -1,7 +1,7 @@
 ---
 title: 'Library: MIR Eval library ported to pytorch'
 date: 2020-10-05
-permalink: /posts/2020/10/05/mir-eval-for-pytorch/
+permalink: /posts/2020/10/05/mir-eval-for-pytorch
 tags:
   - machine learning
   - audio
