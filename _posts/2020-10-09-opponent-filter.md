@@ -55,4 +55,8 @@ Then they just update the predictions and return the output or pass this to the 
 ## Sound Source Location Masking Network  
 The results for source localization talk by them selves.  It seems they are capable to predict an accurate region (which respects the shape of different instruments).  On contrary, previous works usually create a gaussian probability map centered at the zone of motion (moving hand to play string instruments for example).  
 ![img](/images/papers/localization_opponent_filters.PNG)  
-To do so, they have an auxiliary network which estimate a location mask which is applied over the input. 
+To do so, they have an auxiliary network which estimate a location mask which is applied over the input, the **Sound Source Location Masking Network** (SSLM)  
+$$\mathcal{L}=\sum^J\left\| \widehat{M}_j^{SSLM}-\widehat{M_j }\right\|_1+\frac{\lambda}{q}\left\| SSLM(I) \right\|_1$$  
+The first term of the loss minimizes the different between the output of the network with and without using this module. 
+The second term regularizes the generated mask, reducing the amount of non-zero values.  
+
