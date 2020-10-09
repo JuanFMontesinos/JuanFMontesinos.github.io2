@@ -22,9 +22,8 @@ Note: Parts of the paper may be quoted without indication.
 
 # Paper Resume: Visually Guided Sound Source Separation using Cascaded Opponent Filter Network  
 ## Contributions:   
-* End-to-end CNN 
-* Weakly supervised (image pairs)
-* differentiable soft inlier scoring module, inspired by the RANSAC  
+* Opponent Filters (transferring sound components in a cascade )
+* Refined sound source localization
 
 Given a mixture of sounds to separate. The objective of the work is to recover the original sound sources. 
 To do so, authors propose a cascade network in 1 + N stages.  
