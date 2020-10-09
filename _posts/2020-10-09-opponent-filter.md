@@ -43,4 +43,16 @@ The authors try the following inputs:
 - Two-streams modules of pairs of the previous inputs.  
 
 ## Audio Representation  
-They use STFT representations of the sound, predicting masks. In order to generate features and produce the separation they use U-Net.  
+They use STFT representations of the sound, predicting binary masks. In order to generate features and produce the separation they use U-Net.  
+The U-Net is used both in the first stage and in the N subsequent stages.  
+## The opponent filter  
+![img](/images/papers/opponent_filter_arch.PNG)  
+The input is always a spectrogram.  
+Audio components are extracted by U-Net.  
+For each audio in the mixture there should be associated video features. Instead of pairing each video with its own audio (like a contrainer over the spectrogram) they pair each video with the different opposite source (for 2 sources). This way they obtain the components of the audio which belongs to the other source.  
+Then they just update the predictions and return the output or pass this to the next stage.
+
+## Sound Source Location Masking Network  
+The results for source localization talk by them selves.  It seems they are capable to predict an accurate region (which respects the shape of different instruments).  On contrary, previous works usually create a gaussian probability map centered at the zone of motion (moving hand to play string instruments for example).  
+![img](/images/papers/localization_opponent_filters.PNG)  
+To do so, they have an auxiliary network which estimate a location mask which is applied over the input. 
