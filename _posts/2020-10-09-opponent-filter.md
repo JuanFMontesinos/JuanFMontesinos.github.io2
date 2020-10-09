@@ -41,3 +41,6 @@ The authors try the following inputs:
 - RGB video sequence (process through 3D CNN)  
 - Optical Flow video sequence (process through 3D CNN)  
 - Two-streams modules of pairs of the previous inputs.  
+
+## Audio Representation  
+They use STFT representations of the sound, predicting masks. In order to generate features and produce the separation they use U-Net.  
