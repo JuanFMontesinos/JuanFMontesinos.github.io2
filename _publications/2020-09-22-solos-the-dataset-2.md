@@ -2,11 +2,11 @@
 title: "Solos: A Dataset for Audio-Visual Music Source Separation and Localization"
 collection: publications
 permalink: /publication/2020-09-22-solos-the-dataset-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
+excerpt: 'Audiovisual Dataset of musicians playing different instruments. Openpose skeleton provided framewise'
 date: 2020-09-22
-venue: 'IEEE'
+venue: 'IEEE MMSP2020'
 paperurl: 'https://arxiv.org/pdf/2006.07931.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+citation: 'Juan F. Montesinos, Gloria Haro (2020). &quot;Solos: A Dataset for Audio-Visual Music Source Separation and Localization&quot; <i>IEEE MMSP 2020 1</i>.'
 ---
 
 [Download paper here](https://arxiv.org/abs/2006.07931)
