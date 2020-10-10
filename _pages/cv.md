@@ -43,6 +43,6 @@ Teaching
 
 Github Examples   
 ======  
-[torch_mir_eval](https://github.com/JuanFMontesinos/torch_mir_eval): Main BSS metrics ported for the first time to pytorch.  
-[PyOF](https://github.com/JuanFMontesinos/PyOF): Optical Flow IO + display inheriting numpy arrays.  
-[Flerken](https://github.com/JuanFMontesinos/flerken): Pytorch framework and toolkit for training and processing audiovisual data, training and displaying metrics.  
+* [torch_mir_eval](https://github.com/JuanFMontesinos/torch_mir_eval): Main BSS metrics ported for the first time to pytorch.  
+* [PyOF](https://github.com/JuanFMontesinos/PyOF): Optical Flow IO + display inheriting numpy arrays.  
+* [Flerken](https://github.com/JuanFMontesinos/flerken): Pytorch framework and toolkit for training and processing audiovisual data, training and displaying metrics.  
