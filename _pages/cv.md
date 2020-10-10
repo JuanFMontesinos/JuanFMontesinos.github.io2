@@ -22,17 +22,27 @@ Education
 Work experience
 ======
 * Vehicle Certification Agency 2016: Mechanical engineer intership  
-Internship in VCA, company dependent on British government.Learning homologation and regulation methods of vehicles. Carryingout homologation tests in different labs and HQs for Aston Martin,Jaguar or Land Rover around UK  
+Internship in VCA, company dependent on British government.Learning homologation and regulation methods of vehicles. Carrying out homologation tests in different labs and HQs for Aston Martin,Jaguar or Land Rover around UK  
 
 * Barcelona Deep Learning Symposium 2018: Staff/Volunteer  
 
 * MIP FRONTIERS Summer School 2019  
  Music and Machine learning  
-  
+ 
+Publications
+======
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>  
   
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+Github Examples   
+======  
+[torch_mir_eval](https://github.com/JuanFMontesinos/torch_mir_eval): Main BSS metrics ported for the first time to pytorch.  
+[PyOF](https://github.com/JuanFMontesinos/PyOF): Optical Flow IO + display inheriting numpy arrays.  
+[Flerken](https://github.com/JuanFMontesinos/flerken): Pytorch framework and toolkit for training and processing audiovisual data, training and displaying metrics.  
