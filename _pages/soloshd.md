@@ -4,7 +4,6 @@ title: "Solos HD: Audiovisual recordings of musicians"
 excerpt: "soloshd"
 author_profile: true
 redirect_from: 
-  - /soloshd/
   - /soloshd.html
 ---
 Hola, me llamo Juan Montesinos y soy estudiante de doctorado en la [Universidad Pompeu Fabra](https://www.upf.edu/).  
