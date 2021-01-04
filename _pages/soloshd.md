@@ -1,7 +1,7 @@
 ---
 permalink: /soloshd
 title: "Solos HD: Audiovisual recordings of musicians"
-excerpt: "About me"
+excerpt: "soloshd"
 author_profile: true
 redirect_from: 
   - /soloshd/
