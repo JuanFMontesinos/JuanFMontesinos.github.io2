@@ -1,5 +1,5 @@
 ---
-permalink: /soloshd
+permalink: /soloshd/
 title: "Solos HD: Audiovisual recordings of musicians"
 excerpt: "soloshd"
 author_profile: true
