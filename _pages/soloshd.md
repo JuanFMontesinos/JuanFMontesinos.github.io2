@@ -16,7 +16,7 @@ apariencia similar y son de interés general y cultural. Como parte de mi proyec
 ### Qué es la IA  
 La comunmente conocida Inteligencia Artificial son los algorítmos que están detrás de la mayoría de la tecnología de los últimos años. Ejemplos de ello son Siri, Alexa,
 los traductores de Google, pero incluso cosas tan cotidianas como los filtros de instragram, las fotazos que hacen los móviles, las recomendaciones en Netflix/ Spotify  o las típicas app como faceswap. Es una tecnología
-en crecimiento que se empieza a utilizar en seguridad, los coches de Tesla.  
+en crecimiento que se empieza a utilizar en seguridad, los coches de Tesla o cosas tan diferentes como generar nuevos materiales o cómo organizar las entregas de Amazon.  
 
 ### ¿Por qué este proyecto?  
 A día de hoy la mayoría de estos algorítmos requieren muchísimos datos para funcionar correctamente. Es algo que sólo esta al alcance de unas pocas universidades y empresas como
@@ -26,7 +26,7 @@ tecnología que existe en el mundillo de la música. Cualquier material grabado 
 ### ¿Qué tendría que hacer?  
 Realmente poca cosa :) Nos gustaría poder grabar a músicos mientras tocan, con vídeo y audio en alta resolución para generar datos de calidad. Básicamente sería tocar piezas 
 con las que te sientas cómodo/a (no tienen que salir perfectas, no pasa nada). El nivel de implicación depende de cada uno, puede ser 10 minutos o varias horas.  Quedaría algo como esto  
-<img src="./images/flute.PNG" alt="drawing" width="400"/>  
+<img src="../images/flute.PNG" alt="drawing" width="400"/>  
 
 ### ¿Qué instrumentos buscáis?  
 Básicamente estos (por seleccionar algunos) aunque si alguien estuviese super interesado en añadir algún otro sería genial.  
