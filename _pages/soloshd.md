@@ -40,7 +40,7 @@ la tecnología que existe a día de hoy.
 Algunas de las aplicaciones serían las siguientes:
 - Estimar partituras  
 - Estimar audio corrupto: Imagina que estás tocando una pieza y alguien tose. Lo estropea todo. A partir del vídeo se puede restaurar el sonido más probable.  
-- Separar sonidos: Imagina un videoclip de tu canción favorita. Quieres la voz acapella o el sonido de algún instrumento... Pues con la IA es posible conseguirlo.  Mira este [video](https://www.youtube.com/watch?v=4_l31Vucrmo) de Javier Altozano.  
+- Separar sonidos: Imagina un videoclip de tu canción favorita. Quieres la voz acapella o el sonido de algún instrumento... Pues con la IA es posible conseguirlo.  Mira este [video](https://www.youtube.com/watch?v=4_l31Vucrmo) de Javier Altozano, es mucho más descriptivo que todo este post.  
 - Transformar sonidos: Imagina silvar o tocar algo y poder convertir esa melodía a flauta, o violín, o piano. [Google AI (Youtube video)](https://youtu.be/bXBliLjImio?t=21) lo ha hecho posible.  
 
 ### ¿Cómo participo?  
