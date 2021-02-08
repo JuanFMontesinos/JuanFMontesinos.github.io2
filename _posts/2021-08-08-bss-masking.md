@@ -34,5 +34,75 @@ an element-wise multiplication). Which kind of masks one may propose?
 
 There are several types of masks and losses which can be used. You can find more info in this study [Michaelsanti et al. 2018](https://arxiv.org/pdf/1811.06234.pdf)
 Here I'm going to adress binary masks and complex masks.  
-## Binary mask  
+### Binary mask  
+Since spectrograms are defined in the complex domain, the binary masks are defined over the magnitude spectrograms the following way:  
+$$M_i[t,f] =1 if |S_i[t,f]|>|S_j[t,f]$$ for $$f \in 1..N$$, 0 otherwise, where N is the amount of sources. In short, if the magnite at a point [T,F] is higher than the magnite at the same point for any other source, then the mask at that point equals 1. Zero otherwise. 
+This type of mask assumes each time-frequency point belongs to a single source only.  
+### Complex mask  
+The complex mask can be defined as $$M[t,f] = S_i[t,f]/S_{mix}[t,f]}$$ where the operator represents the complex division. 
+A good paper explaining complex masks and their underlying maths is [Complex Ratio Masking for Monaural SpeechSeparation](http://homes.sice.indiana.edu/williads/publication_files/williamsonetal.cRM.2016.pdf)
+
+## Which mask is better? Binary vs Complex, an ablation study  
+This is in fact the worthy part of the blog post. In order to compare the reconstruction quality using these masks we will use  the Signal to distorsion ratio (SDR). The higher, the better.  
+
+One interesting point to take into account is that, by definition, the complex mask is better. Why? The complex mask is the ratio between each source and the mixture, therefore it allows to perfectly recover each source. It's a lossless mask. On contrary, the binary mask is a lossy mask. It's possible (but for corner cases) to recover the original source perfectly.  
+
+What we are going to study here is the quality of the reconstructed source when downsampling the spectrogram. This downsampling is a technique used to reduce computations and save memory while training and doing inference. In this ablation, the frequency dimension is downsampled by a factor of 2, such that a mixture of shape F x T is downsampled to F/2 x T.  
+### Experiment setup  
+The whole experiment is carried out using pytorch (and its fft package and upsampling functions). I tried 3 different upsampling methods, nearest, bilinear and bicubic. I tried interpolating the spectrogram as magnitude and phase and as real and imag. Lastly, I compared between interpolating the mask and then multiplying the interpolated mask by the mixture spectrogram or interpolating the downsampled  predicted spectrogram (downsampling the mixture, multiplying it by the mask and the upsampling).  The audio sample used is a female voice singing acapella mixted with the same voice at a different point of the song. 
+### Results
+Results are the following
+```
+mask upsampled using nearest, mask type: complex,
+ SDR:18.30, L1:8.814e-03cartesian space
+mask upsampled using bicubic, mask type: complex,
+ SDR:17.47, L1:1.017e-02cartesian space
+mask upsampled using bilinear, mask type: complex,
+ SDR:17.44, L1:9.819e-03cartesian space
+mask upsampled using bicubic, mask type: binary,
+ SDR:14.40, L1:4.167e-02polar space
+mask upsampled using bicubic, mask type: binary,
+ SDR:14.40, L1:4.167e-02cartesian space
+mask upsampled using bilinear, mask type: binary,
+ SDR:14.32, L1:4.208e-02polar space
+mask upsampled using bilinear, mask type: binary,
+ SDR:14.32, L1:4.208e-02cartesian space
+mask upsampled using nearest, mask type: binary,
+ SDR:14.18, L1:4.179e-02polar space
+mask upsampled using nearest, mask type: binary,
+ SDR:14.18, L1:4.179e-02cartesian space
+mask upsampled using bilinear, mask type: complex,
+ SDR:7.62, L1:3.324e-02polar space
+mask upsampled using bicubic, mask type: complex,
+ SDR:6.52, L1:3.683e-02polar space
+mask upsampled using nearest, mask type: complex,
+ SDR:6.15, L1:3.786e-02polar space
+spectrogram upsampled using nearest, mask type: complex,
+ SDR:5.78, L1:6.882e-02cartesian space
+spectrogram upsampled using nearest, mask type: binary,
+ SDR:4.83, L1:7.444e-02cartesian space
+spectrogram upsampled using bilinear, mask type: complex,
+ SDR:3.29, L1:7.583e-02cartesian space
+spectrogram upsampled using bilinear, mask type: binary,
+ SDR:2.74, L1:7.807e-02cartesian space
+spectrogram upsampled using bicubic, mask type: complex,
+ SDR:2.30, L1:7.532e-02cartesian space
+spectrogram upsampled using bicubic, mask type: binary,
+ SDR:1.81, L1:7.777e-02cartesian space
+spectrogram upsampled using bilinear, mask type: complex,
+ SDR:-7.21, L1:8.310e-02polar space
+spectrogram upsampled using bicubic, mask type: complex,
+ SDR:-7.76, L1:8.443e-02polar space
+spectrogram upsampled using nearest, mask type: complex,
+ SDR:-8.26, L1:8.884e-02polar space
+spectrogram upsampled using bilinear, mask type: binary,
+ SDR:-9.72, L1:8.244e-02polar space
+spectrogram upsampled using bicubic, mask type: binary,
+ SDR:-10.27, L1:8.344e-02polar space
+spectrogram upsampled using nearest, mask type: binary,
+ SDR:-10.62, L1:8.668e-02polar space
+
+Process finished with exit code 0
+
+```
 
