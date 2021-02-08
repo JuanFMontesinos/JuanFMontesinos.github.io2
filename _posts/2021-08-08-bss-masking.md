@@ -28,7 +28,11 @@ and we will have a mixture and its separated sources.
 
 ## Masks and DNN.  
 Generating a whole signal from the scratch is a difficult task even for DNN. We can denote a spectrogram as $$S[t,f]$$. A mixture of sources can be defined as
-$$S_mix[t,f]=\sum S_i[t,f]$$. One way of easing the source separation task is training
-DNN to choose whether a time-frequency point belongs to one source or another. This is equivalent to define a mask $$M[t,f]$$ such that $$M_i \cdot S_mix = S_i$$ (where the operator is
-an element-wise multiplication)
+$$S_{mix}[t,f]=\sum S_i[t,f]$$. One way of easing the source separation task is training
+DNN to choose whether a time-frequency point belongs to one source or another. This is equivalent to define a mask $$M[t,f]$$ such that $$M_i \cdot S_{mix} = S_i$$ (where the operator is
+an element-wise multiplication). Which kind of masks one may propose?  
+
+There are several types of masks and losses which can be used. You can find more info in this study [Michaelsanti et al. 2018](https://arxiv.org/pdf/1811.06234.pdf)
+Here I'm going to adress binary masks and complex masks.  
+## Binary mask  
 
