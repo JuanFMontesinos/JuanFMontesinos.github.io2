@@ -105,4 +105,8 @@ spectrogram upsampled using nearest, mask type: binary,
 Process finished with exit code 0
 
 ```
+## Analysis and conclusions  
+It's interesting to highligh that the oracle sdr for binary masks is 14.85, meanwhile the oracle sdr for the complex mask is 101.19.
+This really means that downsampling and upsampling when using binary masks doesn't harm the performance but speeds up the computations and save memory. However, in case of complex masks, we are setting a clear upperbound for our model's performance.  
 
+Another interesting fact is that we are gonna find a loudness reduction in case of binary mask. The sound is naturally linear, however our way of representing it with float numbers (which are bounded between -1 and 1) forces us to rescale the resulting signal to fit that bound (as real samples would do). We empirically mix a set of sound as $$S_{mix} \sum S_i / N}. Therefore each source's loudness is 1/N the original one. Complex mask rescales the loudness back the the original one by definition. This can be missleading to the network if the amount of sources is variable. 
