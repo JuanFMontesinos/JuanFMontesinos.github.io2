@@ -39,7 +39,7 @@ Since spectrograms are defined in the complex domain, the binary masks are defin
 $$M_i[t,f] =1 if |S_i[t,f]|>|S_j[t,f]$$ for $$f \in 1..N$$, 0 otherwise, where N is the amount of sources. In short, if the magnite at a point [T,F] is higher than the magnite at the same point for any other source, then the mask at that point equals 1. Zero otherwise. 
 This type of mask assumes each time-frequency point belongs to a single source only.  
 ### Complex mask  
-The complex mask can be defined as $$M[t,f] = S_i[t,f]/S_{mix}[t,f]}$$ where the operator represents the complex division. 
+The complex mask can be defined as $$M[t,f] = S_i[t,f]/S_{mix}[t,f]$$ where the operator represents the complex division. 
 A good paper explaining complex masks and their underlying maths is [Complex Ratio Masking for Monaural SpeechSeparation](http://homes.sice.indiana.edu/williads/publication_files/williamsonetal.cRM.2016.pdf)
 
 ## Which mask is better? Binary vs Complex, an ablation study  
