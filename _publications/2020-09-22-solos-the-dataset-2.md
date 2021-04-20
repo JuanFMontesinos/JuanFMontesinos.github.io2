@@ -6,7 +6,7 @@ excerpt: 'Audiovisual Dataset of musicians playing different instruments. Openpo
 date: 2020-09-22
 venue: 'IEEE MMSP2020'
 paperurl: 'https://arxiv.org/pdf/2006.07931.pdf'
-citation: 'Juan F. Montesinos, Gloria Haro (2020). &quot;Solos: A Dataset for Audio-Visual Music Source Separation and Localization&quot; <i>IEEE MMSP 2020 1</i>.'
+citation: 'Juan F. Montesinos, Olga Slizovskaia, Gloria Haro (2020). &quot;Solos: A Dataset for Audio-Visual Music Source Separation and Localization&quot; <i>IEEE MMSP 2020 1</i>.'
 ---
 
 [Download paper here](https://arxiv.org/abs/2006.07931)
