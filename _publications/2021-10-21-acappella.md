@@ -1,5 +1,3 @@
-
-A cappella: Audio-visual Singing Voice Separation
 ---
 title: "A cappella: Audio-visual Singing Voice Separation"
 collection: publications
