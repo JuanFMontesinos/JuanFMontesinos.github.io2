@@ -10,15 +10,17 @@ redirect_from:
 
 I'm a PhD student at [Pompeu Fabra University](https://www.upf.edu/web/campus/campus-poblenou) in Barcelona.
 
-![upf](/images/upf.jpg "UPF Campus Poblenou")  
-<sub><sup>Image credits: [Ariel Ramírez](http://www.arielramirez.es/commissioned-work/arquitectura/pompeu-fabra-university-campus-aia-salazar-navarro/)</sup></sub>  
-My main research line is focused on audiovisual sound analysis. Audiovisual content leverages on the co-ocurrence of an even in the real world in both, the audio signal and visual signal, that we percieve.  This allows as to perform super wonderful tasks like audio inpainting (based on video), cross-model generation, lip reading, video inpaining and many more things!
+# What I Do?  
+**Audio-visual analysis!:** audio inpainting, cross-model generation, lip reading, video inpaining, [Blind Source Separation](https://ipcv.github.io/Acappella/).  
 
-I'm currently working on [Blind Source Separation](https://en.wikipedia.org/wiki/Signal_separation) and singing voice separation (like in) [Cocktail Party Problem](https://www.youtube.com/watch?v=T0HP9cxri0A). 
-I addressed audiovisual source separation with enconder-decoder architectures. Recently with Transformers and Graph-CNNs!  
-My next topic is audio-visual inpainting.  
+# How do I do it?  
+Well... I work on academia so I don't have many resources. I work with Graph-CNNs and Transformers nor encoder-decoders! This is fast, cheap and reaches SOTA results!  
 
-Since I work in audiovisual I do belong to the [Music Technology Group](https://www.upf.edu/web/mtg) and to the [Image Processing Group](https://www.upf.edu/web/knowledge/-/research-group-image-processing-group-gpi-), being co-supervised by the Dr. Emilia Gómez and the Dr. Gloria Haro.  
+# Nice people around
+I do belong to the [Music Technology Group](https://www.upf.edu/web/mtg) and to the [Image Processing Group](https://www.upf.edu/web/knowledge/-/research-group-image-processing-group-gpi-), being co-supervised by the Dr. Emilia Gómez and the Dr. Gloria Haro.  
+Expecial acknowledgment to Olga Slizovskaia, great researcher and better person for being my methor in this world.  
 
-I'm also a python enthusiast You can find projects I've done in GitHub. 
+# Who I am outside the lab?  
+I do love Mountains, I've been in the Amazonas, do canyoning, treeking or climbing. Eat bugs, termites or ants sometimes :/  
+![](../images/treeking.jpeg"Huuuh")
 
