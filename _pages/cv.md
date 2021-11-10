@@ -30,6 +30,7 @@ Education
 * MIP FRONTIERS Summer School 2019  
  Music and Machine learning  
  -->
+ 
 Publications
 ======
   <ul>{% for post in site.publications %}
@@ -42,6 +43,8 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
+# CS Technical Skills  
+====== 
 Github Examples   
 ======  
 * [torch_mir_eval](https://github.com/JuanFMontesinos/torch_mir_eval): Main BSS metrics ported for the first time to pytorch.  
