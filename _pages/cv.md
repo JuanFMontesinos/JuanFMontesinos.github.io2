@@ -18,17 +18,18 @@ Education
   * [Autonomous University of Barcelona](https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html)
   * Open University of Catalonia
 * Ph.D in Computer Science, Pompeu Fabra University, 2019 
+<!---
 
-Work experience
-======
-* Vehicle Certification Agency 2016: Mechanical engineer intership  
-Internship in VCA, company dependent on British government.Learning homologation and regulation methods of vehicles. Carrying out homologation tests in different labs and HQs for Aston Martin,Jaguar or Land Rover around UK  
+# Work experience
+# ======
+# * Vehicle Certification Agency 2016: Mechanical engineer intership  
+#Internship in VCA, company dependent on British government.Learning homologation and regulation methods of vehicles. Carrying out homologation tests in different labs and HQs for #Aston Martin,Jaguar or Land Rover around UK  
 
 * Barcelona Deep Learning Symposium 2018: Staff/Volunteer  
 
 * MIP FRONTIERS Summer School 2019  
  Music and Machine learning  
- 
+ -->
 Publications
 ======
   <ul>{% for post in site.publications %}
