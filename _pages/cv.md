@@ -18,18 +18,7 @@ Education
   * [Autonomous University of Barcelona](https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html)
   * Open University of Catalonia
 * Ph.D in Computer Science, Pompeu Fabra University, 2019 
-<!---
 
-# Work experience
-# ======
-# * Vehicle Certification Agency 2016: Mechanical engineer intership  
-#Internship in VCA, company dependent on British government.Learning homologation and regulation methods of vehicles. Carrying out homologation tests in different labs and HQs for #Aston Martin,Jaguar or Land Rover around UK  
-
-* Barcelona Deep Learning Symposium 2018: Staff/Volunteer  
-
-* MIP FRONTIERS Summer School 2019  
- Music and Machine learning  
- -->
  
 Publications
 ======
@@ -44,7 +33,17 @@ Teaching
   {% endfor %}</ul>
 
 # CS Technical Skills  
-====== 
+======  
+* Continuous Integration: Travis CI, Github workflows  
+* Python/pytorch expersitse Check my [Pytorch's discuss](https://discuss.pytorch.org/u/juanfmontesinos/summary) profile  
+* Basic CUDA kernel implementation  
+* Basic tensorflow/keras  
+* Basic C++ 
+* Audio-visual IO optimization: [Custom GPU IO library](https://github.com/JuanFMontesinos/PyNVIdeoReader), ffmpeg, Nvidia's DALI etcetera...  
+* Solving audio-visual analysis problems  
+* Demos and webapps via GColab and streamlit  
+* 
+
 Github Examples   
 ======  
 * [torch_mir_eval](https://github.com/JuanFMontesinos/torch_mir_eval): Main BSS metrics ported for the first time to pytorch.  
