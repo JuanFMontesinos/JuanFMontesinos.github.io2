@@ -9,8 +9,8 @@ main:
   #- title: "Teaching"
   #  url: /teaching/    
     
-  #- title: "Portfolio"
-  #  url: /portfolio/
+  - title: "After work"
+    url: /adventures/
         
   - title: "CS Posts"
     url: /year-archive/
@@ -18,8 +18,6 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "After work"
-    url: /adventures/
     
   #- title: "Guide"
   #  url: /markdown/
