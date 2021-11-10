@@ -21,6 +21,6 @@ I do belong to the [Music Technology Group](https://www.upf.edu/web/mtg) and to 
 Expecial acknowledgment to Olga Slizovskaia, great researcher and better person for being my methor in this world.  
 
 # Who I am outside the lab?  
-I do love Mountains, I've been in the Amazonas, do canyoning, treeking or climbing. Eat bugs, termites or ants sometimes :/  
+I do love Mountains, I've been in the Amazonas, climbed volcanoes, do canyoning, treeking or ski. Eat bugs, termites or ants sometimes :/  
 ![Canyon](/images/treeking.jpeg)
 
