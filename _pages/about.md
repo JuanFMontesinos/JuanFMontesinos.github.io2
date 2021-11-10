@@ -22,5 +22,5 @@ Expecial acknowledgment to Olga Slizovskaia, great researcher and better person 
 
 # Who I am outside the lab?  
 I do love Mountains, I've been in the Amazonas, do canyoning, treeking or climbing. Eat bugs, termites or ants sometimes :/  
-![Canyon](/images/treeking.jpeg"Huuuh")
+![Canyon](/images/treeking.jpeg)
 
