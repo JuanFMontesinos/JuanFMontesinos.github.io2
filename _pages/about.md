@@ -10,7 +10,7 @@ redirect_from:
 
 I'm a PhD student at [Pompeu Fabra University](https://www.upf.edu/web/campus/campus-poblenou) in Barcelona.
 
-# What I Do?  
+# Research Line   
 **Audio-visual analysis!:** audio inpainting, cross-model generation, lip reading, video inpaining, [Blind Source Separation](https://ipcv.github.io/Acappella/).  
 
 # How do I do it?  
