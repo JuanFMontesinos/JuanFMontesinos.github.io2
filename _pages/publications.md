@@ -57,3 +57,54 @@ A fairly straightforward approach for music source separation is to train indepe
 </details>  
   
 * Oral presentation at IEEE MMSP20 [YouTube](https://www.youtube.com/watch?v=6dtXjOan4Qo)  
+
+## Solos: A Dataset for Audio-Visual Music Analysis  
+Juan F. Montesinos, Olga Slizovskaia, Gloria Haro,  
+IEEE  International Workshop on Multimedia Signal Processing  
+<details>
+<summary>Bibtex Citation</summary>
+<p>
+
+```
+@inproceedings{montesinos2020solos,
+    author    = {Juan F. Montesinos and
+                 Olga Slizovskaia and
+                 Gloria Haro},
+    title     = {Solos: A Dataset for Audio-Visual Music Analysis},
+    booktitle = {22st {IEEE} International Workshop on Multimedia Signal Processing,
+                {MMSP} 2020, Tampere, Finland, September 21-24, 2020},
+               
+    publisher = {IEEE},
+    year      = {2020},
+
+}
+```
+</p>
+</details>  
+<details>
+<summary>Abstract</summary>
+<p>
+In this paper, we present a new dataset of music
+performance videos which can be used for training machine
+learning methods for multiple tasks such as audio-visual blind
+source separation and localization, cross-modal correspondences,
+cross-modal generation and, in general, any audio-visual self-
+supervised task. These videos, gathered from YouTube, consist of
+solo musical performances of 13 different instruments. Compared
+to previously proposed audio-visual datasets, Solos is cleaner
+since a big amount of its recordings are auditions and manually
+checked recordings, ensuring there is no background noise nor
+effects added in the video post-processing. Besides, it is, up
+to the best of our knowledge, the only dataset that contains
+the whole set of instruments present in the URMP [1] dataset,
+a high-quality dataset of 44 audio-visual recordings of multi-
+instrument classical music pieces with individual audio tracks.
+URMP was intented to be used for source separation, thus, we
+evaluate the performance on the URMP dataset of two different
+source-separation models trained on Solo
+</p>
+</details>  
+
+[Project Page](juanmontesinos.com/Solos)  || [Github Code](https://github.com/JuanFMontesinos/Solos) || [Arxiv](https://arxiv.org/pdf/2006.07931.pdf)
+* Poster presentation  at IEEE MMSP20 [YouTube](https://youtu.be/nesxriwTd8Y)    
+
