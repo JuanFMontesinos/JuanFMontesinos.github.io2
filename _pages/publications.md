@@ -4,7 +4,16 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+## Real-time visually guided voice separation  
+Currently working 
+<details>
+<summary>Description</summary>
+<p>
 
+Audio-visual methods usually outperforms audio-only methods but, can they be used in real-time applications at a reasonable cost?  
+Developing SOTA speech enhancement methods with bounded computational power requirements.  
+</p>
+</details> 
 ## Acappella: Audio-visual singing voice separation  
 Juan F. Montesinos, Venkatesh S. Kadandale, Gloria Haro,  
 British Machine Vision Conference 2021  
