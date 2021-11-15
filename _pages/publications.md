@@ -45,4 +45,15 @@ Sight and Sound Workshop, Computer Vision and Pattern Recognition 2021 (S&S CVPR
 [Paper](https://sightsound.org/papers/2021/Venkatesh_Shenoy_Kadandale_Estimating_Individual_A_Cappella_Voices_in_Music_Videos_with_Singing_Faces.pdf)  || [GitHub Code](https://github.com/JuanFMontesinos/Acappella-YNet)  
 * Oral presentation  at S&S CVPR21 [YouTube](https://www.youtube.com/watch?v=IEFuj7WGO-c&t=986s&ab_channel=SightandSound)  
 
-
+## Multi-channel U-Net for Music Source Separation  
+Venkatesh S. Kadandale, Juan F. Montesinos, Gloria Haro, Emilia Gómez  
+IEEE International Workshop on Multimedia Signal Processing  
+[Project Page](https://vskadandale.github.io/multi-channel-unet/)  || [Arxiv](https://arxiv.org/abs/2003.10414)  || [IEEE Arxiv](https://ieeexplore.ieee.org/document/9287108/)  
+<details>
+<summary>Abstract</summary>
+<p>
+A fairly straightforward approach for music source separation is to train independent models, wherein each model is dedicated for estimating only a specific source. Training a single model to estimate multiple sources generally does not perform as well as the independent dedicated models. However, Conditioned U-Net (C-U-Net) uses a control mechanism to train a single model for multi-source separation and attempts to achieve a performance comparable to that of the dedicated models. We propose a multi-channel U-Net (M-U-Net) trained using a weighted multi-task loss as an alternative to the C-U-Net. We investigate two weighting strategies for our multi-task loss: 1) Dynamic Weighted Average (DWA), and 2) Energy Based Weighting (EBW). DWA determines the weights by tracking the rate of change of loss of each task during training. EBW aims to neutralize the effect of the training bias arising from the difference in energy levels of each of the sources in a mixture. Our methods provide three-fold advantages compared to C-U-Net: 1) Fewer effective training iterations per epoch, 2) Fewer trainable network parameters (no control parameters), and 3) Faster processing at inference. Our methods achieve performance comparable to that of C-U-Net and the dedicated U-Nets at a much lower training cost.
+</p>
+</details>  
+  
+* Oral presentation at IEEE MMSP20 [YouTube](https://www.youtube.com/watch?v=6dtXjOan4Qo)  
