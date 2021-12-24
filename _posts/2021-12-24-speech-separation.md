@@ -1,5 +1,5 @@
 ---
-title: 'Library: MIR Eval library ported to pytorch'
+title: 'Speech separation with voice identity'
 date: 2021-12-24
 permalink: /posts/2021/12/24/speech-separation
 tags:
