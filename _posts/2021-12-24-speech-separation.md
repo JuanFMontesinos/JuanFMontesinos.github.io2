@@ -1,6 +1,6 @@
 ---
 title: 'Library: MIR Eval library ported to pytorch'
-date: 2020-10-05
+date: 2021-12-24
 permalink: /posts/2021/12/24/speech-separation
 tags:
   - machine learning
