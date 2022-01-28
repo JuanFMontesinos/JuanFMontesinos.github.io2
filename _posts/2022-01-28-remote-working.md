@@ -25,4 +25,7 @@ still visualize matplotlib figures and similar ones.
 ### Remote Kernel in Pycharm  
 To configure a remote kernel in Pycharm we do need the PRO version. Remote kernel is not available in the community version.  
 We need to go to `File>Settings`. Once in the window go to `Build,Execution, Deployment`
-![](/images/deployment.png)
+![](/images/deployment.png)  
+Here we add a new `SSH configuration` (just a typical ssh connection)  
+In the tap `mappings` we relate where the local files are located in the remote server. For example, my project folder in local is `/home/juan/project_example`. In my remote server the analogous folder is `/home/serverAMD500/projects/pycharm/project_example_master`. Note that both folders can have different names.  
+Lastly, assume there is a folder which is really heavy (data, examples, etcetera...). We can tell the system to ignore it, like .gitignore file in GIT. This can be done at the tab `Excluded Paths`.  
