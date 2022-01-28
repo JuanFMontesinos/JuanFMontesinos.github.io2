@@ -29,3 +29,6 @@ We need to go to `File>Settings`. Once in the window go to `Build,Execution, Dep
 Here we add a new `SSH configuration` (just a typical ssh connection)  
 In the tap `mappings` we relate where the local files are located in the remote server. For example, my project folder in local is `/home/juan/project_example`. In my remote server the analogous folder is `/home/serverAMD500/projects/pycharm/project_example_master`. Note that both folders can have different names.  
 Lastly, assume there is a folder which is really heavy (data, examples, etcetera...). We can tell the system to ignore it, like .gitignore file in GIT. This can be done at the tab `Excluded Paths`.  
+
+To run the code in the remote server we need to configure the project to use that kernel. We simply go to `Build, Execution, Deployment > Console > Python Console` and choose the remote kernel. Usually named like `Remote Python 3.6.9 (sftp://servername@10.50.72:22...`. We can add a small script to be executed each time we open a console.  
+![](/images/remote_console.png)  
