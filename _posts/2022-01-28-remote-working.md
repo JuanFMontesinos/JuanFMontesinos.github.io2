@@ -32,3 +32,31 @@ Lastly, assume there is a folder which is really heavy (data, examples, etcetera
 
 To run the code in the remote server we need to configure the project to use that kernel. We simply go to `Build, Execution, Deployment > Console > Python Console` and choose the remote kernel. Usually named like `Remote Python 3.6.9 (sftp://servername@10.50.72:22...`. We can add a small script to be executed each time we open a console.  
 ![](/images/remote_console.png)  
+Now we can use pycharm as if we were in local!  
+
+**Extra hints:** The process of saving local changes remotely is not automatic. To enable it we have to go to:  
+![](/images/automatic_upload.png)  
+and turn `automatic upload` on.  
+
+## Other interesting tool  
+### Termius  
+Termius is a all-in-one ssh client. It has SFTP protocol with GUI, port forwarding, SSH and snippets. Everything saving username etcetera... It's multidevice (Windows, Linux, Mac, Android...) and synchronises the devices. This simplify a lot to forward a port or to open a console.  
+![](/images/termius.png)  
+
+### Tensorboard  
+![image](https://user-images.githubusercontent.com/32466310/151636323-451f59c3-5cd0-410f-9d69-74e3aa9c283f.png)  
+Tensorboard needs no introduction. What some users doesn't know is we can visualize tensorboard from a remote computer. When we open tensorboard it displays the content in the local address given a port (usually 6006, 6007 and so).  
+Port forwarding is ssh protocol which just maps the remote port of our choose to port in our local computer. This way we can just visualize tensorboard from any device with SSH.  
+
+### Streamlit  
+[Streamlit](https://streamlit.io/) is an awesome python library wich allows us to create a webapp to make demos or visualize data in a very simple way:  
+![image](https://user-images.githubusercontent.com/32466310/151636575-bb9ef9de-de2f-402f-882b-653d8e7ad8ae.png)  
+The really nice thing is we can also visualize a streamlit instance opened in a remote computer in our local by forwarding the port!  
+
+## Drawbacks and hints  
+This way of working is extremely confortable and feels as if you were connected to the server but...  
+**SSH AND SFTP PROTOCOLS ARE HAAARDLY AFFECTED BY NETWORK'S LATENCY.**  
+What does this mean? It means no matter how good your connection is, if you are really far away from the server this won't really work. We are talking about being in different continents, like America and Europe. Even if you have a few latency (200 ms) that's enough to mess the whole system.  
+
+Thanks for reading and have fun at home!  
+
