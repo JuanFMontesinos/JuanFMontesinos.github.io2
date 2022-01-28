@@ -23,3 +23,6 @@ At the time of running the code, we can use all the IDE tools, breakpoints, debu
 In short, it feels as if you were connected to the server directly. The only drawback is you cannot use remote server's GUI tools, for example OpenCV tools to display. However you can
 still visualize matplotlib figures and similar ones.  
 ### Remote Kernel in Pycharm  
+To configure a remote kernel in Pycharm we do need the PRO version. Remote kernel is not available in the community version.  
+We need to go to `File>Settings`. Once in the window go to `Build,Execution, Deployment`
+![](/images/deployment.png)
