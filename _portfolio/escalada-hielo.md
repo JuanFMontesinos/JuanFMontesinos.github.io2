@@ -30,5 +30,6 @@ Nos encontramos otros grupos disfrutando de este maravilloso paraje. La dinámic
 ![image](https://user-images.githubusercontent.com/32466310/154322756-94be03a8-3fce-4322-80b4-b963553b1d6d.png)  
 ![image](https://user-images.githubusercontent.com/32466310/154321147-f58df1e3-be77-4388-9db6-d5fdc2cfde57.png)  
 ![image](https://user-images.githubusercontent.com/32466310/154321236-adfd54c9-41d2-4086-a44d-d433dbc2363b.png)  
+![image](https://user-images.githubusercontent.com/32466310/154323395-cee258d6-30db-4c8d-aeab-c41234dd9065.png)
 
 
