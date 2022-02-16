@@ -27,7 +27,7 @@ A la mañana siguiente, ya con las pilas cargadas, madrugamos un poco más. Esta
 ![image](https://user-images.githubusercontent.com/32466310/154319215-1933837c-12f5-4b96-a185-02a482f1cbbf.png)  
 
 Nos encontramos otros grupos disfrutando de este maravilloso paraje. La dinámica el resto del día será la misma. Alberto escalará la pared de hielo y montará un *top rope* para que podamos arriesgar con total seguridad. Vamos alternando las vías con otros grupos y al final las hacemos casi todas. Tras varias horas de escalada y descubriendo diferentes sensaciones mis compañeros de aventuran a abrir la vía de primeros. El día cierra con una pequeña ventisca que anticipa la primera nevada en varios meses en el valle de Benasque, nevada que, por fin, volverá a teñir el valle de blanco.  
-![image](https://user-images.githubusercontent.com/32466310/154319894-5454a3b2-c7d5-4eba-b38d-9862f880bc4d.png)  
+![image](https://user-images.githubusercontent.com/32466310/154322756-94be03a8-3fce-4322-80b4-b963553b1d6d.png)  
 ![image](https://user-images.githubusercontent.com/32466310/154321147-f58df1e3-be77-4388-9db6-d5fdc2cfde57.png)  
 ![image](https://user-images.githubusercontent.com/32466310/154321236-adfd54c9-41d2-4086-a44d-d433dbc2363b.png)  
 
