@@ -13,7 +13,9 @@ Alberto nos comentaba, sin embargo, que los años de poca nieve son fantasticos 
 Nos ajustamos las botas y acabamos de ultimar el material dirección al barranco de Ampriu, practicamente visible desde el parking. 
 El barranco de Ampriu es un pequeño barranco no muy vertical, perfecto para unos primeros pasos sobre el hielo.  
 ![image](https://user-images.githubusercontent.com/32466310/154306422-c25e552b-dd5f-4bce-80a4-127c53738aab.png)  
-Nos ponemos los crampones y Alberto nos explica la correcta clavada de crampones, así como la actuación en caso de una caída con autodetención. Después de dedicar unos momentos
-a habituarnos a caminar sobre el hielo, Alberto escala una pequeña pared y tira una cuerda. Nuestro pequeño primer reto nos espera.  
+Nos ponemos los crampones y Alberto nos explica la correcta clavada de crampones, así como la actuación en caso de una caída con autodetención. Después de dedicar unos momentos a habituarnos a caminar sobre el hielo, Alberto escala una pequeña pared y tira una cuerda. Nuestro pequeño primer reto nos espera. Abordamos la evolución de los piolets, desde los más polivalentes hasta los piolet ergonómicos totalmente diseñados para la escalada en hielo. La clavada del piolet es clave, el movimiento tiene que buscar "desgarrar" el hielo de arriba a abajo. Unos minutos después estábamos probando nosotros mismos. Lo más sorprendente de todo es la robusted del piolet clavado en el hielo. Es capaz de soportar el peso de todo el cuerpo y te puedes colgar de él para descansar.  
 ![image](https://user-images.githubusercontent.com/32466310/154309222-b9af475f-75ed-430b-bb10-4b92e104618a.png)  
+
+Al poco tiempo esta pequeña pared sabía a poco. Además, nuestra inexperiencia nos hacía mellar el hielo más de lo que nos gustaría. Era hora de remontar el barranco e introducir un nuevo concepto: los tornillos de hielo. Esta ingeniosa herramienta permite crear anclajes bastante seguros en mitad del hielo. Lejos de lo que pueda parecer son fáciles de colocar si están bien afilados. Basta con enroscarlos a mano hasta que se sostengan por si solos a la pared para, a continuación, rematar el trabajo con la manivela. ¡Bendita ley de la palanca!  
+![image](https://user-images.githubusercontent.com/32466310/154313329-9463a1b6-3e2d-407c-87d0-e353017b94b9.png)  
 
