@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /frederiksborg /
+permalink: /frederiksborg/
 title: "Frederiksborg Castle Visit"
 author_profile: false
 ---
