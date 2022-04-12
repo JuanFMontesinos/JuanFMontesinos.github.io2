@@ -18,7 +18,7 @@ Education
   * [Autonomous University of Barcelona](https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html)
   * Open University of Catalonia
 * Ph.D in Computer Science, Pompeu Fabra University, 2019 
-* Visitor Researcher in Oticon.  
+* Visitor Researcher in [Oticon Denmark](https://www.oticon.com/) (Audiology company).  
  
 Publications
 ======
