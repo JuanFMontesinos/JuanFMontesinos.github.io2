@@ -18,7 +18,7 @@ Education
   * [Autonomous University of Barcelona](https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html)
   * Open University of Catalonia
 * Ph.D in Computer Science, Pompeu Fabra University, 2019 
-
+* Visitor Researcher in Oticon.  
  
 Publications
 ======
@@ -35,6 +35,7 @@ Teaching
 # CS Technical Skills  
 ======  
 * Continuous Integration: Travis CI, Github workflows  
+* Docker and singularity  
 * Python/pytorch expersitse Check my [Pytorch's discuss](https://discuss.pytorch.org/u/juanfmontesinos/summary) profile  
 * Basic CUDA kernel implementation  
 * Basic tensorflow/keras  
@@ -42,10 +43,8 @@ Teaching
 * Audio-visual IO optimization: [Custom GPU IO library](https://github.com/JuanFMontesinos/PyNVIdeoReader), ffmpeg, Nvidia's DALI etcetera...  
 * Solving audio-visual analysis problems  
 * Demos and webapps via GColab and streamlit  
-* 
 
 Github Examples   
 ======  
 * [torch_mir_eval](https://github.com/JuanFMontesinos/torch_mir_eval): Main BSS metrics ported for the first time to pytorch.  
 * [PyOF](https://github.com/JuanFMontesinos/PyOF): Optical Flow IO + display inheriting numpy arrays.  
-* [Flerken](https://github.com/JuanFMontesinos/flerken): Pytorch framework and toolkit for training and processing audiovisual data, training and displaying metrics.  
