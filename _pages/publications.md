@@ -14,6 +14,31 @@ Audio-visual methods usually outperforms audio-only methods but, can they be use
 Developing SOTA speech enhancement methods with bounded computational power requirements.  
 </p>
 </details> 
+
+## VoViT: Low Latency Graph-based Audio-Visual Voice Separation Transformer  
+Venkatesh S. Kadandale, Juan F. Montesinos, Gloria Haro,  
+Under review 
+<details>
+<summary>Brief description</summary>
+<p>
+This paper presents an audio-visual approach for voice separation which outperforms state-of-the-
+art methods at a low latency in two scenarios: speech and singing voice. The model is based on
+a two-stage network. Motion cues are obtained with a lightweight graph convolutional network
+that processes face landmarks. Then, both audio and motion features are fed to an audio-visual
+transformer which produces a fairly good estimation of the isolated target source. In a second stage,
+the predominant voice is enhanced with an audio-only network.
+</p>
+</details>  
+## VocaLiST: An Audio-Visual Synchronisation Model for Lips and Voices  
+Venkatesh S. Kadandale, Juan F. Montesinos, Gloria Haro,  
+Under review 
+<details>
+<summary>Brief description</summary>
+<p>
+we address the problem of lip-voice synchronisation in videos containing human face and voice. Our approach is based on determining if the lips motion and the voice in a video are synchronised or not, depending on their audio-visual correspondence score. We propose an audio-visual cross-modal transformer-based model that outperforms several baseline models in the audio-visual synchronisation task on the standard lip-reading speech benchmark dataset LRS2. While the existing methods focus mainly on the lip synchronisation in speech videos, we also consider the special case of singing voice
+</p>
+</details>  
+
 ## Acappella: Audio-visual singing voice separation  
 Juan F. Montesinos, Venkatesh S. Kadandale, Gloria Haro,  
 British Machine Vision Conference 2021  
