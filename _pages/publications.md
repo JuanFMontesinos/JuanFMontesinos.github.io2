@@ -29,7 +29,8 @@ transformer which produces a fairly good estimation of the isolated target sourc
 the predominant voice is enhanced with an audio-only network.
 </p>
 </details>  
-## VocaLiST: An Audio-Visual Synchronisation Model for Lips and Voices  
+
+## VocaLiST: An Audio-Visual Synchronisation Model for Lips and Voices    
 Venkatesh S. Kadandale, Juan F. Montesinos, Gloria Haro,  
 Under review 
 <details>
