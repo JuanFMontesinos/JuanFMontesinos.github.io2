@@ -4,20 +4,19 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-## Real-time visually guided voice separation  
-Currently working 
+## Audio-visual synthesis
+Synthesizing speech and video all at once. Current work. 
 <details>
 <summary>Description</summary>
 <p>
-
-Audio-visual methods usually outperforms audio-only methods but, can they be used in real-time applications at a reasonable cost?  
-Developing SOTA speech enhancement methods with bounded computational power requirements.  
+There exists video inpainting, there exists audio inpainting. What about cross-modal inpainting? 
 </p>
 </details> 
 
 ## VoViT: Low Latency Graph-based Audio-Visual Voice Separation Transformer  
-Venkatesh S. Kadandale, Juan F. Montesinos, Gloria Haro,  
-Under review 
+Juan F. Montesinos, Venkatesh S. Kadandale Gloria Haro,  
+* ECCV 2022
+* Poster Presentation at S&S workshop in CVPR 2022
 <details>
 <summary>Brief description</summary>
 <p>
@@ -32,7 +31,9 @@ the predominant voice is enhanced with an audio-only network.
 
 ## VocaLiST: An Audio-Visual Synchronisation Model for Lips and Voices    
 Venkatesh S. Kadandale, Juan F. Montesinos, Gloria Haro,  
-Under review 
+[Project Page](https://ipcv.github.io/VocaLiST/)  || [Github Code](https://github.com/vskadandale/vocalist) || [Arxiv](https://arxiv.org/abs/2204.02090)  
+* Poster presentation  in Interspeech 2022  
+* Poster presentation in S&S CVPR 2022
 <details>
 <summary>Brief description</summary>
 <p>
@@ -42,7 +43,7 @@ we address the problem of lip-voice synchronisation in videos containing human f
 
 ## Acappella: Audio-visual singing voice separation  
 Juan F. Montesinos, Venkatesh S. Kadandale, Gloria Haro,  
-British Machine Vision Conference 2021  
+British Machine Vision Conference 2021  (BMVC 2021)
 <details>
 <summary>Bibtex Citation</summary>
 <p>
