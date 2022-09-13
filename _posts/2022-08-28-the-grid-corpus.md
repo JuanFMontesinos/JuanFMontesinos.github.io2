@@ -45,3 +45,9 @@ it, we could track the issue back to the original dataset :(
 
 ## Conclusion  
 Inspect your data, your results and be careful with GRID!  
+
+
+## ------ UPDATE 13/09/2022---------  
+We decided to run an automatic method to detect synchronization issues in speech videos in english. We run the algorithm on the speakers 30, 32, 33 and 34.  
+THe main issue arises for speaker 34, where ~25% of the videos are unsync.  
+`{'s34': 0.726, 's32': 0.999, 's33': 0.951, 's30': 1.0}`
