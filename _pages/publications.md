@@ -15,6 +15,7 @@ There exists video inpainting, there exists audio inpainting. What about cross-m
 
 ## VoViT: Low Latency Graph-based Audio-Visual Voice Separation Transformer  
 Juan F. Montesinos, Venkatesh S. Kadandale Gloria Haro,  
+[Project Page](https://ipcv.github.io/VoViT/)  || [GitHub Code](https://github.com/JuanFMontesinos/VoViT) || [Arxiv](https://arxiv.org/abs/2203.04099)  
 * ECCV 2022
 * Poster Presentation at S&S workshop in CVPR 2022
 <details>
