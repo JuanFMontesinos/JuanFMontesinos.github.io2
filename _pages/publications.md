@@ -142,6 +142,6 @@ source-separation models trained on Solo
 </p>
 </details>  
 
-[Project Page](juanmontesinos.com/Solos)  || [Github Code](https://github.com/JuanFMontesinos/Solos) || [Arxiv](https://arxiv.org/pdf/2006.07931.pdf)
+[Project Page](/Solos)  || [Github Code](https://github.com/JuanFMontesinos/Solos) || [Arxiv](https://arxiv.org/pdf/2006.07931.pdf)
 * Poster presentation  at IEEE MMSP20 [YouTube](https://youtu.be/nesxriwTd8Y)    
 
