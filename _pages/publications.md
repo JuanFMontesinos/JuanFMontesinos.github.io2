@@ -4,8 +4,8 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-## Audio-visual synthesis
-Synthesizing speech and video all at once. Current work. 
+## Video-guided speech synthesis  
+Synthesizing speech and video all at once [Under review]  
 <details>
 <summary>Description</summary>
 <p>
