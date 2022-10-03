@@ -72,15 +72,15 @@ We evaluate:
 </details>  
 
 [Project Page](https://ipcv.github.io/Acappella/)  || [Github Code](https://github.com/JuanFMontesinos/Acappella-YNet) || [Arxiv](https://arxiv.org/abs/2104.09946)
-* Poster presentation  at BMVC21  
-* Poster presentation at Barcelona Deep Learning Symposium  
+* Poster presentation  in BMVC21  
+* Poster presentation in Barcelona Deep Learning Symposium  
 
 ## Estimating Individual A Cappella Voices in Music Videos with Singing Faces   
 Venkatesh S. Kadandale, Juan F. Montesinos, GLoria Haro.  
 Sight and Sound Workshop, Computer Vision and Pattern Recognition 2021 (S&S CVPR21)  
 
 [Paper](https://sightsound.org/papers/2021/Venkatesh_Shenoy_Kadandale_Estimating_Individual_A_Cappella_Voices_in_Music_Videos_with_Singing_Faces.pdf)  || [GitHub Code](https://github.com/JuanFMontesinos/Acappella-YNet)  
-* Oral presentation  at S&S CVPR21 [YouTube](https://www.youtube.com/watch?v=IEFuj7WGO-c&t=986s&ab_channel=SightandSound)  
+* Oral presentation  in S&S CVPR21 [YouTube](https://www.youtube.com/watch?v=IEFuj7WGO-c&t=986s&ab_channel=SightandSound)  
 
 ## Multi-channel U-Net for Music Source Separation  
 Venkatesh S. Kadandale, Juan F. Montesinos, Gloria Haro, Emilia Gómez  
@@ -93,7 +93,7 @@ A fairly straightforward approach for music source separation is to train indepe
 </p>
 </details>  
   
-* Oral presentation at IEEE MMSP20 [YouTube](https://www.youtube.com/watch?v=6dtXjOan4Qo)  
+* Oral presentation in IEEE MMSP20 [YouTube](https://www.youtube.com/watch?v=6dtXjOan4Qo)  
 
 ## Solos: A Dataset for Audio-Visual Music Analysis  
 Juan F. Montesinos, Olga Slizovskaia, Gloria Haro,  
